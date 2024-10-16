@@ -7,15 +7,14 @@ https://wilderae.pixieset.com/m/bMgqJr/
 _Minimum technologies:_
 
 - HTML
-  CSS
-  JavaScript
+- CSS
+- JavaScript
 
   - DOM, Arrow Function, Callback function, Fetch or Sync/Await
-
-  JSON files
+- JSON files
 
 _File naming:_
 
 - Must Have:
   - index.html
-    index.js
+  - index.js
