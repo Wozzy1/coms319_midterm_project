@@ -1,0 +1,9 @@
+#home_page_image {
+    max-height: 95vh;
+}
+
+#transparent_image {
+    max-width: 100vh;
+    opacity: 0;
+
+}
