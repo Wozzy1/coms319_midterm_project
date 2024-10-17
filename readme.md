@@ -22,6 +22,7 @@ _File Naming:_
 
 - Must-Have:
   - index.html
+<<<<<<< HEAD
   - index.js
 
 _Site Content:_
@@ -32,3 +33,25 @@ _Submission:_
 Submitted to github pages.
 When submitting to Canvas: One file with the name github.txt located in the root
 of the website will contain the URL of the website in GitHub
+=======
+    index.js
+
+_Site Content:_
+
+- client testimonials
+  - what kinds of atheletes she trains
+- Owner statement
+  - vision
+  - mission
+  - target audience
+  - camaraderie
+- gym pictures
+  - panning pics
+- Contact
+
+_Site Styling_
+
+- Font:
+  - Garamond
+  - Aileron
+>>>>>>> 0b8cabc (ideas and styling)
