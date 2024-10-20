@@ -3,3 +3,28 @@
     max-height: 50vh;
     object-fit: cover;
 }
+
+.programs-button {
+    /* background-color: #e4f8ba; */
+    font-family: serif;
+    width: 20vw;
+    height: 20vw;
+    max-width: 200px;
+    max-height: 50px;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    /* line-height: 20vw; */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card-text {
+    text-align: center; 
+}
+
+.card-text ul {
+    padding-left: 0; 
+    list-style-position: inside;
+}
