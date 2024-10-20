@@ -17,7 +17,7 @@ function imgOnScroll() {
   let scrollPercentage = scrollTop / scrollableHeight;
 
   // Adjust the opacity based on the scroll progress
-  let newOpacity = scrollPercentage * 2; // New opacity value between 0 and 1
+  let newOpacity = scrollPercentage * 50; // New opacity value between 0 and 1
 
   // Ensure the opacity stays within the range [0, 1]
   newOpacity = Math.min(Math.max(newOpacity, 0), 1);

@@ -1,3 +1,10 @@
+body,
+html {
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  font-family: Arial, sans-serif;
+}
+
 #home_page_image {
   max-height: 95vh;
 }
@@ -12,49 +19,13 @@
 }
 
 .img {
-  max-height: 30vw;
+  max-height: 40vw;
   overflow-y: hidden;
 }
 
-/* Light Mode (default) */
-body {
-  background-color: white;
-  color: black;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.container {
-  text-align: center;
-  margin-top: 50px;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-/* Dark Mode */
-body.dark-mode {
-  background-color: #121212;
-  color: #ffffff;
-}
-
-button {
-  background-color: #007bff;
-  color: white;
+.hr {
   border: none;
-  border-radius: 5px;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-.header-text {
-  font-size: 2rem;
-}
-
-.plain-text {
-  font-size: 1.5rem;
+  height: 10px; /* Adjust the thickness of the line */
+  background-color: black; /* Set the background color */
+  width: 100%; /* Set the width (optional, you can adjust it) */
 }
