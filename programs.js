@@ -76,7 +76,7 @@ function buttonClicked(num) {
                 let item = `
                     <div
                         class="card mb-3 text-center mx-auto"
-                        style="max-width: 80vw; object-position: center"
+                        style="width: 900px; max-width: 80vw; min-height: 30vh; object-position: center"
                         >
                         <img
                             class="card-img-top"
