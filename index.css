@@ -50,3 +50,11 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+.header-text {
+  font-size: 2rem;
+}
+
+.plain-text {
+  font-size: 1.5rem;
+}
