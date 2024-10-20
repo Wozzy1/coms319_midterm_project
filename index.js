@@ -1,29 +1,28 @@
-
-    window.addEventListener("scroll", imgOnScroll);
+window.addEventListener("scroll", imgOnScroll);
 
 function imgOnScroll() {
-    const transparent_image = document.getElementById("transparent_image");
-    
-    // Get the current scroll position
-    let scrollTop = window.scrollY || document.documentElement.scrollTop;
+  const transparent_image = document.getElementById("transparent_image");
 
-    // Get the height of the entire page and the window's viewport height
-    let documentHeight = document.documentElement.scrollHeight;
-    let windowHeight = window.innerHeight;
+  // Get the current scroll position
+  let scrollTop = window.scrollY || document.documentElement.scrollTop;
 
-    // Calculate the scrollable height of the page
-    let scrollableHeight = documentHeight - windowHeight;
+  // Get the height of the entire page and the window's viewport height
+  let documentHeight = document.documentElement.scrollHeight;
+  let windowHeight = window.innerHeight;
 
-    // Calculate the scroll progress as a value between 0 and 1
-    let scrollPercentage = scrollTop / scrollableHeight;
+  // Calculate the scrollable height of the page
+  let scrollableHeight = documentHeight - windowHeight;
 
-    // Adjust the opacity based on the scroll progress
-    let newOpacity = scrollPercentage; // New opacity value between 0 and 1
+  // Calculate the scroll progress as a value between 0 and 1
+  let scrollPercentage = scrollTop / scrollableHeight;
 
-    // Ensure the opacity stays within the range [0, 1]
-    newOpacity = Math.min(Math.max(newOpacity, 0), 1);
+  // Adjust the opacity based on the scroll progress
+  let newOpacity = scrollPercentage; // New opacity value between 0 and 1
 
-    // Set the new opacity on the image
-    transparent_image.style.opacity = newOpacity;
-    console.log(opacity);
+  // Ensure the opacity stays within the range [0, 1]
+  newOpacity = Math.min(Math.max(newOpacity, 0), 1);
+
+  // Set the new opacity on the image
+  transparent_image.style.opacity = newOpacity;
+  // console.log(opacity);
 }
