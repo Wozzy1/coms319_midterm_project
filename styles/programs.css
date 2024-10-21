@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Aileron:wght@400;600;700&display=swap");
+
+.carousel-inner img {
+  /* max-height: vh; */
+  max-height: 50vh;
+  object-fit: cover;
+}
+
+.programs-button {
+  /* background-color: #e4f8ba; */
+  font-family: "Aileron", sans-serif;
+  width: 20vw;
+  height: 20vw;
+  max-width: 200px;
+  max-height: 50px;
+  border-radius: 12px;
+  border: none;
+  text-align: center;
+  /* line-height: 20vw; */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.programs-button:hover {
+  background-color: #e4f8ba; /* Change background color on hover */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-text ul {
+  padding-left: 0;
+  list-style-position: inside;
+}

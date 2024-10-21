@@ -23,8 +23,18 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aileron:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- programs.css -->
-    <link href="programs.css" rel="stylesheet" />
+    <link href="styles/programs.css" rel="stylesheet" />
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -45,8 +55,8 @@
 
     <title>Thr33 | Training Programs</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <body style="background-color: #feffe9">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="./index.html" style="margin-left: 1%"
         >Thr33</a
       >
@@ -65,14 +75,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="./index.html"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -89,10 +96,13 @@
               <a class="dropdown-item" href="./programs.html"
                 >Training Programs</a
               >
-              <a class="dropdown-item" href="./contact.html">Contact Us</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
             </div>
+          </li> -->
+          <li>
+            <a class="nav-link" href="./programs.html">Training Programs</a>
+          </li>
+          <li>
+            <a class="nav-link" href="./about_us.html">About the Devs</a>
           </li>
         </ul>
       </div>
@@ -108,21 +118,42 @@
             <img
               src="./images/back_squat.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="Squats"
             />
           </div>
           <div class="carousel-item">
             <img
               src="./images/barbell_clean.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="Barbell Clean Deadlift"
             />
           </div>
           <div class="carousel-item">
             <img
               src="./images/bench_press_2.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="Bench Press"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/items_3.jpg"
+              class="d-block w-100"
+              alt="items3"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/dumbbell.jpg"
+              class="d-block w-100"
+              alt="dumbbell"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/ceofit_3.jpg"
+              class="d-block w-100"
+              alt="ceofit3"
             />
           </div>
         </div>
@@ -146,13 +177,17 @@
         </a>
       </div>
     </div>
-    <div class="container text-center" style="margin-top: 3vh; margin-bottom: 3vh;">
+
+    <div
+      class="container text-center"
+      style="margin-top: 3vh; margin-bottom: 3vh"
+    >
       <div class="row justify-content-center">
         <div class="col-3">
           <button
             id="programs-button-1"
             class="programs-button"
-            style="background-color: #e4f8ba"
+            style="background-color: #a8d480"
           >
             1:1 Training
           </button>
@@ -161,7 +196,7 @@
           <button
             id="programs-button-2"
             class="programs-button"
-            style="background-color: #c6e99f"
+            style="background-color: #a8d480"
           >
             Semi-Private Training
           </button>
@@ -170,7 +205,7 @@
           <button
             id="programs-button-3"
             class="programs-button"
-            style="background-color: #b4dc87"
+            style="background-color: #a8d480"
           >
             Online Coaching
           </button>
