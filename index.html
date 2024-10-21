@@ -25,8 +25,18 @@
     ></script>
 
     <!-- index.css -->
-    <link href="index.css" rel="stylesheet" />
-    <script src="index.js"></script>
+    <link href="styles/index.css" rel="stylesheet" />
+
+    <!-- FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aileron:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -44,7 +54,7 @@
     <title>Thr33 | Home</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="./index.html" style="margin-left: 1%"
         >Thr33</a
       >
@@ -63,14 +73,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="./index.html"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -87,94 +94,37 @@
               <a class="dropdown-item" href="./programs.html"
                 >Training Programs</a
               >
-              <a class="dropdown-item" href="./contact.html">Contact Us</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
             </div>
+          </li> -->
+          <li>
+            <a class="nav-link" href="./programs.html">Training Programs</a>
+          </li>
+          <li>
+            <a class="nav-link" href="./about_us.html">About the Devs</a>
           </li>
         </ul>
       </div>
     </nav>
-    <!-- DO LATER -->
-    <!-- <script src="darkmode.js"></script> -->
-    <div>
-      <div class="">
-        <!-- BIG IMAGE that fills whole screen -->
-        <!-- background ima with background size -->
-        <div>
-          <img
-            id="home_page_image"
-            src="./images/Thr33_green_logo.png"
-            style="width: 100vw"
-            alt="placeholder for now"
-          />
-        </div>
 
-        <div class="row">
-          <!-- another big image, but it comes into full opaque view after scrolling 
-             all the way down to the bottom of the page -->
-          <div class="col">
-            <div>
-              <img
-                id="transparent_image"
-                src="./images/team_picture_309.jpg"
-                alt="placeholder for now"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+    <script src="index.js" defer></script>
+    <div style="width: 100vw; height: 50vw; overflow: hidden">
+      <img
+        id="home_page_image"
+        src="./images/thr33_green_logo.png"
+        alt="placeholder for now"
+      />
     </div>
 
+    <!-- <div>
+      <img
+        id="transparent_image"
+        src="./images/team_picture_309.jpg"
+        alt="placeholder for now"
+      />
+    </div> -->
+
     <div style="background-color: #feffe9">
-      <div class="row" style="padding: 25px">
-        <!-- auto div: put image inside and determine the size of it and the grid will snap to -->
-        <div class="col-md-auto">
-          <img src="images/carly_4.jpg" class="img" style="max-height: 40vw" />
-        </div>
-        <div class="col">
-          <div class="text-content">
-            <div class="row">
-              <p class="header-text">
-                <b>Meet Your Coach.</b>
-              </p>
-            </div>
-
-            <div class="row" style="padding-top: 2vh">
-              <p class="plain-text">
-                I'm Carly, your coach. With a B.A. degree in Exercise Science
-                from the University of Iowa, equipped with credentials such as
-                ACSM CPT, PN1 nutrition coach, specialization in Pre/Postnatal
-                fitness, and 200 YT.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="row" style="padding: 25px">
-        <!-- auto div: put image inside and determine the size of it and the grid will snap to -->
-
-        <div class="col">
-          <div class="text-content">
-            <div class="row">
-              <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
-            </div>
-
-            <div class="row" style="padding-top: 50px">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus, laboriosam consequuntur sunt ut cumque et quo fugiat
-              modi ipsam, beatae fugit quibusdam, aperiam corrupti eaque iure!
-              Eligendi debitis illo quas!
-            </div>
-          </div>
-        </div>
-        <div class="col-md-auto">
-          <img src="images/team_picture_309.jpg" class="img" />
-        </div>
-      </div>
+      <div id="content-container"></div>
     </div>
 
     <!--  -->
